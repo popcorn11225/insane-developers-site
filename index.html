@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a1020">
+  <meta name="description" content="Insane Developers LLC helps businesses grow with web development, SEO, AI search optimization, CRM solutions, and digital marketing.">
+  <title>Insane Developers LLC | Build Better. Grow Faster.</title>
+  <style>
+    :root{--bg:#080d19;--panel:#10192b;--panel2:#0c1424;--text:#f4f7ff;--muted:#a8b4c9;--line:rgba(255,255,255,.11);--blue:#69a8ff;--cyan:#6ce7e0;--purple:#9e8bff}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.6}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1140px,92%);margin:auto}.nav{display:flex;align-items:center;justify-content:space-between;padding:22px 0;gap:20px}.brand{display:flex;align-items:center;gap:11px;font-weight:800;letter-spacing:-.4px}.logo{width:40px;height:40px;border-radius:13px;background:linear-gradient(135deg,var(--blue),var(--purple) 58%,var(--cyan));display:grid;place-items:center;color:#08101d;font-weight:950;font-size:17px;box-shadow:0 8px 28px #5a91ff35}.brand small{display:block;color:var(--muted);font-weight:500;letter-spacing:.4px;font-size:10px;text-transform:uppercase}.navlinks{display:flex;gap:25px;align-items:center;color:#d4ddef;font-size:14px}.navlinks a:hover{color:var(--cyan)}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 18px;border-radius:12px;background:linear-gradient(110deg,var(--blue),var(--cyan));color:#07101d;font-weight:800;border:0;cursor:pointer;transition:transform .2s,filter .2s}.btn:hover{transform:translateY(-2px);filter:brightness(1.06)}.btn.secondary{background:transparent;color:var(--text);border:1px solid var(--line)}.menu{display:none;background:none;color:white;border:1px solid var(--line);border-radius:10px;padding:8px 11px;font-size:20px}
+    .hero{padding:76px 0 72px;position:relative;overflow:hidden}.hero:before{content:"";position:absolute;width:560px;height:560px;border-radius:50%;background:radial-gradient(circle,#4e7dff24,transparent 67%);right:-180px;top:-100px;pointer-events:none}.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:52px;align-items:center;position:relative}.eyebrow{display:inline-flex;align-items:center;gap:9px;padding:7px 12px;border:1px solid #69a8ff45;border-radius:999px;background:#14213a;color:#b8d7ff;font-size:12px;font-weight:750;letter-spacing:.7px;text-transform:uppercase}.dot{width:7px;height:7px;border-radius:50%;background:var(--cyan);box-shadow:0 0 12px var(--cyan)}h1{font-size:clamp(42px,6vw,72px);line-height:1.04;letter-spacing:-3.3px;margin:24px 0 22px;max-width:720px}h1 span{background:linear-gradient(100deg,#8bbcff,#8dece4 65%,#b8a8ff);-webkit-background-clip:text;background-clip:text;color:transparent}.lead{font-size:18px;color:var(--muted);max-width:590px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.trust{display:flex;gap:22px;flex-wrap:wrap;margin-top:32px;color:#bdc9dc;font-size:12px}.trust span:before{content:"✓";color:var(--cyan);font-weight:900;margin-right:7px}.visual{min-height:390px;position:relative;display:grid;place-items:center}.orb{position:absolute;width:330px;height:330px;border-radius:50%;background:radial-gradient(circle at 35% 28%,#80c9ff5c,transparent 27%),radial-gradient(circle at 70% 65%,#9e8bff65,transparent 38%),linear-gradient(145deg,#1c3355,#11162d 65%);border:1px solid #b8d6ff28;box-shadow:inset 0 0 50px #87b5ff17,0 35px 90px #0008}.orb:before,.orb:after{content:"";position:absolute;inset:22px;border:1px solid #9acbff45;border-radius:50%;transform:rotateX(68deg) rotateZ(25deg)}.orb:after{inset:48px;transform:rotateX(68deg) rotateZ(-35deg);border-color:#7be6e055}.core{position:relative;width:126px;height:126px;border-radius:34px;display:grid;place-items:center;font-size:38px;font-weight:950;color:#09101f;background:linear-gradient(135deg,#a8d2ff,#76e7e0);box-shadow:0 0 70px #69a8ff5c;transform:rotate(-8deg)}.float{position:absolute;background:#111c30eF;border:1px solid #b9d3ff26;padding:13px 16px;border-radius:15px;box-shadow:0 18px 40px #0005;backdrop-filter:blur(12px);font-size:13px}.float strong{display:block;font-size:15px}.float small{color:var(--muted)}.f1{top:35px;left:0}.f2{right:-5px;top:105px}.f3{bottom:25px;left:30px}
+    section{padding:78px 0}.section-head{text-align:center;max-width:720px;margin:0 auto 40px}.kicker{color:var(--cyan);font-size:12px;text-transform:uppercase;letter-spacing:1.6px;font-weight:850}.section-head h2{font-size:clamp(30px,4vw,45px);letter-spacing:-1.5px;line-height:1.15;margin:12px 0}.section-head p{color:var(--muted);margin:0}.services{background:linear-gradient(180deg,#0a1120,#0b1220)}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{padding:25px;border:1px solid var(--line);border-radius:19px;background:linear-gradient(145deg,#111c30,#0d1526);transition:transform .2s,border-color .2s}.card:hover{transform:translateY(-4px);border-color:#6ce7e04d}.ico{width:48px;height:48px;border-radius:14px;display:grid;place-items:center;background:linear-gradient(135deg,#69a8ff24,#6ce7e01c);border:1px solid #9bbdff2b;color:#9bd7ff;font-size:23px}.card h3{font-size:19px;margin:17px 0 8px}.card p{color:var(--muted);font-size:14px;margin:0 0 14px}.card a{color:#9cd4ff;font-size:13px;font-weight:750}.about-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:55px;align-items:center}.about-panel{padding:32px;border-radius:22px;background:linear-gradient(145deg,#14213a,#0c1425);border:1px solid var(--line)}.about-panel h3{font-size:26px;line-height:1.25;margin:0 0 13px}.about-panel p{color:var(--muted)}.checks{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:22px}.check{font-size:13px;color:#dbe6f7}.check:before{content:"✦";color:var(--cyan);margin-right:8px}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.step{padding:24px 0;border-top:1px solid var(--line)}.num{font-size:13px;color:var(--cyan);font-weight:850;letter-spacing:1px}.step h3{margin:9px 0;font-size:20px}.step p{color:var(--muted);font-size:14px}.cta{padding:48px;border:1px solid #79b9ff36;border-radius:26px;background:radial-gradient(ellipse at top right,#6ce7e018,transparent 45%),linear-gradient(135deg,#15233b,#101528);display:flex;align-items:center;justify-content:space-between;gap:25px}.cta h2{font-size:clamp(27px,4vw,40px);letter-spacing:-1px;line-height:1.15;margin:10px 0}.cta p{color:var(--muted);max-width:620px;margin:0}.contact-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:45px}.contact-info h3{font-size:26px;margin:0 0 10px}.contact-info p{color:var(--muted)}.contact-note{border:1px solid var(--line);background:var(--panel2);padding:16px;border-radius:14px;color:#c7d4e9;font-size:13px;margin-top:20px}.form{display:grid;grid-template-columns:1fr 1fr;gap:14px}.field{display:flex;flex-direction:column;gap:7px}.field.full{grid-column:1/-1}.field label{font-size:13px;color:#d5e0f1}.field input,.field select,.field textarea{width:100%;background:#0d1526;color:var(--text);border:1px solid #ffffff20;border-radius:11px;padding:13px;font:inherit;outline:none}.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--blue)}.field textarea{min-height:120px;resize:vertical}.form-msg{grid-column:1/-1;color:var(--cyan);font-size:13px;min-height:20px}.footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-size:12px}.footrow{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.footer a{color:#dce7f8}.legal{margin-top:8px;color:#74839b}
+    @media(max-width:850px){.hero-grid,.about-grid,.contact-grid{grid-template-columns:1fr}.hero{padding-top:48px}.visual{min-height:350px}.cards{grid-template-columns:repeat(2,1fr)}.cta{align-items:flex-start;flex-direction:column}.navlinks{gap:14px}.navlinks .nav-cta{display:none}}
+    @media(max-width:580px){.nav{padding:15px 0}.menu{display:block}.navlinks{display:none;position:absolute;top:70px;left:4%;right:4%;z-index:10;padding:18px;background:#10192b;border:1px solid var(--line);border-radius:15px;flex-direction:column;align-items:stretch}.navlinks.open{display:flex}.navlinks a{padding:7px}.brand{font-size:14px}h1{letter-spacing:-2px}.hero{padding:35px 0 45px}.visual{min-height:300px;transform:scale(.9)}.orb{width:280px;height:280px}.f1{left:-8px}.f2{right:-8px}.cards,.steps{grid-template-columns:1fr}.checks{grid-template-columns:1fr}.cta{padding:28px}.form{grid-template-columns:1fr}.field.full{grid-column:auto}section{padding:58px 0}.trust{gap:12px}.lead{font-size:16px}}
+  </style>
+</head>
+<body>
+<header class="wrap">
+  <nav class="nav" aria-label="Main navigation">
+    <a class="brand" href="#home" aria-label="Insane Developers LLC home"><span class="logo">ID</span><span>Insane Developers<small>LLC · Digital Growth Studio</small></span></a>
+    <button class="menu" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">☰</button>
+    <div class="navlinks" id="navlinks"><a href="#services">Services</a><a href="#about">About</a><a href="#process">Our Process</a><a href="#contact">Contact</a><a class="btn nav-cta" href="#contact">Start a Project ↗</a></div>
+  </nav>
+</header>
+<main>
+  <section class="hero" id="home">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="eyebrow"><span class="dot"></span> Strategy meets technology</div>
+        <h1>Build better.<br><span>Grow faster.</span></h1>
+        <p class="lead">We help ambitious businesses strengthen their digital presence with modern websites, smarter search visibility, and technology that makes growth easier.</p>
+        <div class="actions"><a class="btn" href="#contact">Let's talk about growth ↗</a><a class="btn secondary" href="#services">Explore services ↓</a></div>
+        <div class="trust"><span>Strategy-led solutions</span><span>Built around your goals</span><span>Made for mobile</span></div>
+      </div>
+      <div class="visual" aria-label="Abstract digital technology illustration">
+        <div class="orb"></div><div class="core">ID</div>
+        <div class="float f1"><strong>Web Development</strong><small>Fast. Modern. Responsive.</small></div>
+        <div class="float f2"><strong>Search Visibility</strong><small>SEO · AIO · GEO</small></div>
+        <div class="float f3"><strong>Smarter Operations</strong><small>CRM & automation</small></div>
+      </div>
+    </div>
+  </section>
+  <section class="services" id="services">
+    <div class="wrap">
+      <div class="section-head"><div class="kicker">What we do</div><h2>Digital solutions built for your next stage</h2><p>From your first impression online to the systems behind the scenes, we bring your digital essentials together.</p></div>
+      <div class="cards">
+        <article class="card"><div class="ico">⌘</div><h3>Website Development</h3><p>Responsive, polished websites designed to communicate your value clearly and turn visits into enquiries.</p><a href="#contact">Discuss a website ↗</a></article>
+        <article class="card"><div class="ico">⌕</div><h3>SEO & Local SEO</h3><p>Improve your search foundations with on-page optimization, local visibility strategy, and useful content.</p><a href="#contact">Improve visibility ↗</a></article>
+        <article class="card"><div class="ico">✧</div><h3>AIO & GEO</h3><p>Prepare your digital content for evolving AI-powered search and discovery experiences with clear, structured information.</p><a href="#contact">Explore AI search ↗</a></article>
+        <article class="card"><div class="ico">▦</div><h3>CRM Solutions</h3><p>Organize leads, follow-ups, and customer workflows with systems tailored to how your team works.</p><a href="#contact">Streamline operations ↗</a></article>
+        <article class="card"><div class="ico">↗</div><h3>Digital Marketing</h3><p>Build a consistent online presence through thoughtful campaigns, conversion-focused messaging, and measurement.</p><a href="#contact">Plan a campaign ↗</a></article>
+        <article class="card"><div class="ico">⚙</div><h3>Automation & Integrations</h3><p>Reduce repetitive work by connecting tools and simplifying routine business processes.</p><a href="#contact">Find opportunities ↗</a></article>
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <div class="wrap about-grid">
+      <div><div class="kicker">Why Insane Developers</div><h2 style="font-size:clamp(32px,4vw,46px);letter-spacing:-1.7px;line-height:1.12;margin:12px 0 18px">A digital partner focused on what moves your business forward.</h2><p style="color:var(--muted)">Technology should solve real problems—not add complexity. We combine thoughtful strategy, clean execution, and practical tools to help businesses create a stronger digital foundation.</p><a class="btn secondary" href="#contact" style="margin-top:15px">Tell us your goals ↗</a></div>
+      <div class="about-panel"><h3>Clear thinking.<br>Purposeful execution.</h3><p>Every project starts with understanding your business, your customers, and the outcome you want to achieve.</p><div class="checks"><div class="check">Business-first approach</div><div class="check">Responsive design</div><div class="check">Practical technology</div><div class="check">Growth-focused planning</div><div class="check">Transparent communication</div><div class="check">Room to scale</div></div></div>
+    </div>
+  </section>
+  <section id="process" style="background:#0a1120">
+    <div class="wrap"><div class="section-head"><div class="kicker">How we work</div><h2>From idea to impact</h2><p>A simple process keeps projects focused, collaborative, and moving forward.</p></div>
+      <div class="steps"><div class="step"><div class="num">01 / DISCOVER</div><h3>Understand the goal</h3><p>We learn about your business, audience, challenges, and what success should look like.</p></div><div class="step"><div class="num">02 / BUILD</div><h3>Create the solution</h3><p>We shape the right strategy and build a solution around your priorities and resources.</p></div><div class="step"><div class="num">03 / IMPROVE</div><h3>Launch and refine</h3><p>We help you identify next steps and opportunities to keep improving your digital presence.</p></div></div>
+    </div>
+  </section>
+  <section><div class="wrap"><div class="cta"><div><div class="kicker">Have a project in mind?</div><h2>Let's make your next move count.</h2><p>Tell us what you're building, what needs fixing, or where you want to grow. We'll start with the conversation.</p></div><a class="btn" href="#contact">Start a conversation ↗</a></div></div></section>
+  <section id="contact">
+    <div class="wrap contact-grid">
+      <div class="contact-info"><div class="kicker">Contact us</div><h3>Tell us what you need.</h3><p>Share a few details about your business and project. We'll use them to understand how we may be able to help.</p><div class="contact-note"><strong>Before launch:</strong> Connect this form to your preferred form service or business email so enquiries are delivered to you. See the included README for the simple next steps.</div></div>
+      <form class="form" id="contactForm">
+        <div class="field"><label for="name">Your name</label><input id="name" name="name" autocomplete="name" placeholder="Full name" required></div>
+        <div class="field"><label for="email">Work email</label><input id="email" name="email" type="email" autocomplete="email" placeholder="you@company.com" required></div>
+        <div class="field full"><label for="service">What can we help with?</label><select id="service" name="service" required><option value="">Choose a service</option><option>Website development</option><option>SEO / Local SEO</option><option>AIO / GEO</option><option>CRM / Automation</option><option>Digital marketing</option><option>Something else</option></select></div>
+        <div class="field full"><label for="message">Tell us about your project</label><textarea id="message" name="message" placeholder="What are you looking to achieve?" required></textarea></div>
+        <div class="field full"><button class="btn" type="submit">Prepare enquiry ↗</button></div>
+        <div class="form-msg" id="formMsg" role="status" aria-live="polite"></div>
+      </form>
+    </div>
+  </section>
+</main>
+<footer class="footer"><div class="wrap"><div class="footrow"><div>© <span id="year"></span> Insane Developers LLC. All rights reserved.</div><div><a href="#services">Services</a> &nbsp;·&nbsp; <a href="#about">About</a> &nbsp;·&nbsp; <a href="#contact">Contact</a></div></div><div class="legal">Digital strategy, web development, search optimization, and business technology.</div></div></footer>
+<script>
+  const menuBtn=document.getElementById('menuBtn'), nav=document.getElementById('navlinks');
+  menuBtn.addEventListener('click',()=>{const open=nav.classList.toggle('open');menuBtn.setAttribute('aria-expanded',String(open));});
+  nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');menuBtn.setAttribute('aria-expanded','false');}));
+  document.getElementById('year').textContent=new Date().getFullYear();
+  document.getElementById('contactForm').addEventListener('submit',e=>{
+    e.preventDefault();
+    const f=e.currentTarget;
+    const body=`Name: ${f.name.value}\nEmail: ${f.email.value}\nService: ${f.service.value}\n\nProject details:\n${f.message.value}`;
+    const subject=encodeURIComponent('Website enquiry - Insane Developers LLC');
+    const msg=document.getElementById('formMsg');
+    msg.textContent='Your enquiry is ready, but this demo form is not connected to an inbox yet. Please connect a form service before publishing.';
+    // Keep entered data on screen; no information is sent or stored.
+  });
+</script>
+</body>
+</html>
